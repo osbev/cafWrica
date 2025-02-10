@@ -1,0 +1,127 @@
+/* General container styling */
+.gallery-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: linear-gradient(to bottom, var(--bg-primary), var(--bg-primesec));
+    background-size: cover;
+
+    gap: 2rem;
+    width: 100%;
+    height: fit-content;
+}
+
+/* Line with text */
+.line-with-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 2.5rem;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background: linear-gradient(45deg, #08090a00, var(--bg-primesec), #f5e9b476, #fcfcfc3b, #08090a00);
+}
+
+.line-with-text h2 {
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: var(--font-tertiary);
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 2rem;
+}
+
+.place-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width:85%;
+    height: auto;
+    gap: 2rem;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+    max-width: 100%;
+    max-height: 50vh;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.picture-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.picture-container img {
+    width: auto;
+    height: 100%; 
+    object-fit: contain;
+}
+
+
+.place-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    height: fit-content;
+    text-align: left;
+    gap: 1rem;
+}
+
+.place-info h1 {
+    font-family: var(--font-header);
+    font-size: 2.5rem;
+}
+
+.place-title h3 {
+    font-family: var(--font-header);
+}
+
+.place-tags ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    padding-top: 1.5rem;
+    gap: 1rem;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+    margin-left: 15rem;
+    gap: 10px; 
+}
+
+.grid-item {
+    display: block;
+    margin-left: 0 auto;
+}
+
+.bot-container #socials {
+    margin-left: 15rem;
+}

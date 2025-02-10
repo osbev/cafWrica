@@ -1,0 +1,143 @@
+.blog-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    min-width: 90%;
+    min-height: auto;
+    max-height: fit-content;
+
+    background: linear-gradient(to bottom, var(--bg-primesec), var(--bg-primary));
+    padding-top: 0;
+    padding: 3rem;
+}
+
+.blog-container {
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: auto;
+    gap: 1vw;
+    z-index: 3;
+}
+
+.blog-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.blog-profile h2 {
+    font-family: var(--font-header);
+}
+
+.cam {
+    width: 7vw;
+    height: auto;
+    margin-top: -10vh;
+    z-index: 4;
+}
+
+.myprofile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+
+    width: 18vw; 
+    height: 43vh;
+    background: white;
+    background-image: url("../assets/contbg.png");
+    background-size: cover;
+
+    box-shadow: 0px 8px 0px black; 
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden; 
+}
+
+
+.myprofile img {
+    position: absolute; 
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contblog {
+    flex: 1;
+    align-self: center;
+    max-width: 100%; 
+    height: 44vh;
+    max-height: 38vh;
+
+
+    gap: 1rem;
+    padding: 15px;
+    margin-top: -10vh;
+    
+    background: white;
+    background-image: url("../assets/contbg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: 0px 8px 0px black; 
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.short-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: nowrap;
+    height: 55%;
+}
+
+.info-cont {
+    padding: 10px; 
+    font-size: 0.8rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-cont h3 {
+    font-family: var(--font-header);
+}
+.info-cont:first-child {
+    flex: 0.8;
+    border-color: 2px black;
+}
+
+.info-cont:nth-child(2) {
+    flex: 1.2;
+}
+
+.full-width {
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+

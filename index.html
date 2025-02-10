@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cafwrica</title>
+
+    <link rel="stylesheet" href="./styles/temp.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+
+    <link rel="stylesheet" href="./styles/hero.css">
+    <link rel="stylesheet" href="./styles/blog.css">
+    <link rel="stylesheet" href="./styles/gallery.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+    <div id="disclaimer">
+        <h1>
+          This website is not designed to be responsive. Please view on a desktop.
+        </h1>
+        <img src="./assets/cat-stare.gif" alt="cat stare" />
+    </div>
+    <!-- header::navbar -->
+    <header id="home">
+            <nav>
+                <button onclick="window.location.href='./'">Home</button>
+                <button onclick="window.location.href='#blog'">Blog</button>
+                <button onclick="window.location.href='#gallery'">Gallery</button>
+                <button onclick="window.location.href='#contact'">Contact</button>
+            </nav>
+            <a href="./">cafWrica</a>
+            <div class="right-nav">
+                <a href="https://www.facebook.com/profile.php?id=100004194602725">
+                    <button class="my-button">Let's Talk</button>
+                </a>
+                
+                <button id="theme-toggle">
+                    <!-- dark mode icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+                        <path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/>
+                    </svg>  
+                    <!-- light mode icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+                        <path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/>
+                    </svg>
+                </button>
+            </div>
+    </header>
+    <main>
+        <!-- hero section -->
+        <section id="hero" class="hero-section">
+            <p>Discover cafes with Rica!</p>
+        </section>
+
+        <!-- blog section -->
+        <section id="blog" class="blog-section">
+            <div class="blog-container">
+                <div class="contblog short-intro">
+                    <p>
+                        Hey, I’m Rica! A student, a café wanderer, and the person behind <em><b>cafWrica</b></em>—a 
+                        digital nook where I spill the beans (literally) on Cebu’s most charming cafes. 
+                        Whether you’re looking for a cozy study spot, a “tambayan” with great coffee, 
+                        or a quiet place for “laag,” I’ve got you covered. From hidden gems to 
+                        well-loved classics, join me as I sip, savor, and share the spots that deserve 
+                        a place on your coffee crawl! Who knows? Your next favorite café might just be 
+                        around the corner!
+                    </p>
+                </div>
+                <div class="blog-profile">
+                    <div class="myprofile">
+                        <img src="./assets/profile.gif" alt="My Profile" width="400vw" height="auto">
+                    </div>
+                    <img class="cam" src="./assets/cam.png" alt="cam">
+                    <h2>Hi, I'm Rica!</h2>
+                </div>
+                <div class="contblog info">
+                    <div class="info-row">
+                        <div class="info-cont">
+                            <h3>Basic Info</h3>
+                            <p><b>Name:</b><br>Osbev Erica Cabucos</p>
+                            <p><b>Age:</b><br>18 yo</p>
+                            <p><b>Location:</b><br>Cebu, Philippines</p>
+                        </div>
+                        <div class="info-cont">
+                            <h3>Interests</h3>
+                            <p><b>What I Love:</b><br>Long rides, Study & Hangout Spots</p>
+                            <p><b>Go-to Coffee Order:</b><br>Spanish Latte, Coffee Jelly, & Caffe Mocha</p>
+                            <p><b>Hobbies:</b><br>Music, Walking, Films, Coding, etc.</p>
+                        </div>
+                    </div>
+                    <div class="info-cont full-width">
+                        <h3>Spotify Playlist</h3>
+                        <!-- spoti embed -->
+                        <iframe style="border-radius:9px" 
+                            src="https://open.spotify.com/embed/playlist/0kTvQh127ym7tSaYrqvvUz?utm_source=generator&theme=0" 
+                            width="100%" height="90" 
+                            frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- gallery section -->
+        <section id="gallery" class="gallery-section">
+            <div class="line-with-text">
+                <div class="line"></div>
+                <h2>caf gallery</h2>
+                <div class="line"></div>
+            </div>
+            <!-- first place -->
+            <section class="place-container firstplace">
+                <div class="top-container">
+                    <div class="picture-container">
+                        <img src="./assets/lostbook(1).jpg" alt="lost book">
+                    </div>
+                    <div class="place-info">
+                        <div class="place-title">
+                            <h1>Lost Books</h1>
+                        </div>
+                        <div class="place-desc">
+                            <p>
+                                Lost Books is one of those places you stumble upon and never want to leave. Hidden inside the <b><em>CAO
+                                 Mercado Building on Osmeña Blvd</em></b>, this café-bookstore hybrid is the perfect retreat from Cebu’s 
+                                 bustling streets. The moment I stepped in, I felt like I had entered a different world—shelves 
+                                 filled with local literature, cozy nooks for reading, and the comforting aroma of freshly brewed coffee.
+                                 <br><br>
+                                What makes <b>Lost Books</b> special isn’t just its ambiance—it’s the experience. For just <em>₱250 per month</em>, 
+                                you can borrow books and immerse yourself in stories beyond a single visit. I personally loved their 
+                                collection of Filipiniana and Visayan literature, a refreshing find in a world where mainstream books often dominate.
+                            </p>
+                        </div>
+                        <div class="place-tags">
+                            <ul>
+                                <li><b>Location:</b> CAO Mercado Building, Osmeña Blvd, Cebu City</li>
+                                <li><b>Operating Hours:</b>
+                                    <br>10:00 AM – 7:00 PM
+                                    <br>Closed on Thursdays
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bot-container">
+                    <div class="grid-container">
+                        <img src="./assets/lostbook(2).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                        <img src="./assets/lostbook(3).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                        <img src="./assets/lostbook(4).jpg" alt="coastal coffee" class="grid-item middle" width="auto" height="250">
+                        <img src="./assets/lostbook(5).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                        <img src="./assets/lostbook(6).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                    </div>
+                    <div id="socials">
+                        <a href="https://www.facebook.com/share/1Ebbi82sQk/?mibextid=wwXIfr" target="_blank">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/lostbookscebu/" target="_blank">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- second place -->
+            <section class="place-container secplace">
+                <div class="top-container">
+                    <div class="picture-container">
+                        <img src="./assets/coastal(1).jpg" alt="lost book">
+                    </div>
+                    <div class="place-info">
+                        <div class="place-title">
+                            <h1>Coastal Coffee</h1>
+                        </div>
+                        <div class="place-desc">
+                            <p>
+                                If you're heading north, Coastal Coffee in Panalipan, Catmon is a perfect stop to 
+                                unwind by the sea. With its alfresco setup, pet-friendly space, and ample parking, 
+                                it’s a great place to take a breather from the road.
+                                <br><br>
+                                Their cold brew, pour-over coffee, and best-selling ube latte pair well with their
+                                highly recommended carbonara (10/10, they say!).
+                            </p>
+                        </div>
+                        <div class="place-tags">
+                            <ul>
+                                <li><b>Location:</b> Along the northern highway, before Sealsalt Cafe if coming from Cebu City</li>
+                                <li><b>Operating Hours:</b>
+                                    <br>7 AM – 6 PM | Tue–Sun
+                                    <br>Closed on Mondays
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bot-container">
+                    <div class="grid-container">
+                        <img src="./assets/coastal(2).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                        <img src="./assets/coastal(3).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                        <img src="./assets/coastal(4).jpg" alt="coastal coffee" class="grid-item middle" width="auto" height="250">
+                        <img src="./assets/coastal(5).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                        <img src="./assets/coastal(6).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                    </div>
+                    <div id="socials">
+                        <a href="https://www.facebook.com/share/1DuzjBpbxa/?mibextid=wwXIfr" target="_blank">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/coastalcoffeeph/" target="_blank">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- third place -->
+            <section class="place-container thirdplace">
+                <div class="top-container">
+                    <div class="picture-container">
+                        <img src="./assets/thirdwave(1).jpg" alt="lost book">
+                    </div>
+                    <div class="place-info">
+                        <div class="place-title">
+                            <h1>Bloq Cafe</h1>
+                            <h3>by Third Wave Coffee</h3>
+                        </div>
+                        <div class="place-desc">
+                            <p>
+                                Located on the <b><em>2nd floor of Bloq Res. Showroom</em></b>, Third Wave Coffee 
+                                is a great place to slow down—whether you're having a solo coffee break, 
+                                catching up with friends, or getting work done with <em>WiFi and outlets available</em>.
+                                <br><br>
+                                They serve great matcha lattes, pastries, and specialty coffee, with GCash, 
+                                Maya, cards, and cash accepted for easy payments. They also host <b>workshops</b>, 
+                                like the Flowers & Coffee sessions and Latte Art class, and offer coffee cart bookings for events.
+                            </p>
+                        </div>
+                        <div class="place-tags">
+                            <ul>
+                                <li><b>Location:</b> Bloq Res. Showroom, GND Arcade, Cebu City</li>
+                                <li><b>Operating Hours:</b>
+                                    <br>7:00 AM – 6:00 PM | Tue–Sun
+                                    <br>10:00 AM - 12:00 MN | Fri-Sat
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bot-container">
+                    <div class="grid-container">
+                        <img src="./assets/thirdwave(2).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                        <img src="./assets/thirdwave(3).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                        <img src="./assets/thirdwave(4).jpg" alt="coastal coffee" class="grid-item middle" width="auto" height="250">
+                        <img src="./assets/thirdwave(5).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                        <img src="./assets/thirdwave(6).jpg" alt="coastal coffee" class="grid-item" width="auto" height="250">
+                    </div>
+                    <div id="socials">
+                        <a href="https://www.facebook.com/share/14oeb6soAi/?mibextid=wwXIfr" target="_blank">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/thirdwavecoffeecebu/?hl=en" target="_blank">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- contact::footer -->
+    <footer id="footer">
+        <div class="newsletter-container">
+          <h1>Discovered a Hidden Gem?</h1>
+          <p>Kanang chill, kanang aesthetic, kanang worth it—good vibes and great finds, right in your inbox.</p>
+          <form action="">
+            <input type="text" placeholder="Enter your cafe suggestion" required/>
+            <button>SEND</button>
+          </form>
+        </div>
+        <div class="footer-container">
+          <div class="content">
+            <div id="left">
+              <div id="brand">
+                <img src="./assets/logo.png" alt="website logo" draggable="false"/>
+                <h1>cafWrica</h1>
+                <p>Cebu’s café scene, one sip at a time. Asa ta mag-next tambay?</p>
+              </div>
+            </div>
+            <div id="right">
+              <div id="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li>
+                    <a href="#hero">Home</a>
+                  </li>
+                  <li>
+                    <a href="#blog">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#gallery">Gallery</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="contact">
+                <h3>Contact Me</h3>
+                <p>
+                  <i class="fa fa-map-marker"></i> University of San Carlos - TC
+                </p>
+                <p><i class="fa fa-phone"></i> +63 976 593 5111</p>
+                <p><i class="fa fa-envelope"></i> osbevericacabucos12@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div id="bottom">
+            <p>© 2025 cafWrica. All rights reserved.</p>
+            <div id="socials">
+              <a href="https://www.facebook.com/profile.php?id=100004194602725" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="https://github.com/osbev" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+              <a href="https://www.instagram.com/bevvvv.v?igsh=a3I4eHRmbXl6ZDdq&utm_source=qr" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
