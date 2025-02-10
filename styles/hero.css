@@ -23,8 +23,9 @@
 }
 
 .hero-section p {
+    align-self: center;
     margin-left: 2.7vw;
-    margin-bottom: 10vh;
+    margin-top: 75vh;
 
     color: var(--text-primary);
     font-family: var(--font-header);
